@@ -11,13 +11,13 @@ pipeline {
 
         stage('Verificar Git') {
             steps {
-                bat 'git --version'
+                sh 'git --version'
             }
         }
 
         stage('Verificar Repositorio') {
             steps {
-                bat 'dir'
+                sh 'ls -la'
             }
         }
 
