@@ -71,6 +71,23 @@ Resultado final:
 
 Finished: SUCCESS
 
+## Implementación de Pipeline Jenkins
+
+Como mejora al proceso de Integración Continua, se implementó un Pipeline Jenkins utilizando 
+un archivo Jenkinsfile almacenado en el repositorio GitHub
+
+El Pipeline ejecuta automáticamente las siguientes tareas:
+
+- Verificación de la versión de Git
+- Validación del contenido del repositorio
+- Ejecución de etapas automatizadas de Integración Continua
+- Generación de resultados en la consola de Jenkins
+
+Resultado obtenido:
+
+PIPELINE EJECUTADO CORRECTAMENTE
+Finished: SUCCESS
+
 ## Evidencias
 
 Las evidencias del proceso se encuentran en la carpeta:
@@ -106,6 +123,7 @@ Incluyen:
 - Jenkins permitió automatizar actividades de Integración Continua
 - La integración con GitHub facilitó la validación automática del repositorio
 - El proyecto obtuvo compilaciones exitosas demostrando el correcto funcionamiento de la solución
+- Se implementó un Pipeline Jenkins basado en un archivo Jenkinsfile almacenado en GitHub
 
 ## Imágenes del proyecto
   
